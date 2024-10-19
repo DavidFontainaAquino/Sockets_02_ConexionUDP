@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if ! command -v jav --version 2>&1 > /dev/null; 
+if ! command -v java --version 2>&1 > /dev/null; 
 	then
 		echo -e "\033[31mNo se encuentra java en su PC"
 	else 
